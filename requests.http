@@ -1,0 +1,27 @@
+GET http://localhost:3333/product
+###
+GET http://localhost:3333/product/1
+###
+POST http://localhost:3333/product
+Content-Type: application/json
+
+{
+   "name":"Top Visco Infinity",
+   "tissue":"EuroTop",
+   "internalStructure":"Lâmina de espuma Viscoelástica",
+   "baseBox":"Faixa em tecio Linho OffWhite",
+   "heightOfFeet":12,
+   "totalHeight":72,
+   "image":"https://plus.unsplash.com/premium_photo-1675537843200-78c1a0ea1736?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   "baseMeasurement":{
+      "height": 42,
+      "length": 188,
+      "width": 88
+   },
+   "medicalMattress":{
+      "height": 30,
+      "length": 188,
+      "width": 88
+   }
+}
+###
